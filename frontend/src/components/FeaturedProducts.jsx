@@ -32,7 +32,7 @@ const FeaturedProducts = ({ featureProducts }) => {
 
   return (
     <div className=" py-12">
-      {featureProducts.length}
+      {/* {featureProducts.length} */}
       <div className=" container mx-auto px-4">
         <h2 className=" text-center text-5xl sm:text-6xl font-bold text-emerald-400 mb-4">
           Featured
