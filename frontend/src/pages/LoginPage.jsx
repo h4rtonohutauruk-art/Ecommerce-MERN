@@ -37,6 +37,11 @@ const LoginPage = () => {
           <div className=" bg-gray-800 py-8 px-4 shadow sm:rounded-lg sm:px-10">
             <form onSubmit={handleSubmit} className=" space-y-6">
               <div>
+                <p>For Login Admin!!</p>
+                <p>Username: admin@gmail.com</p>
+                <span>Password : Sitorus</span>
+              </div>
+              <div>
                 <label
                   htmlFor="email"
                   className=" block text-sm font-medium text-gray-300"
@@ -50,6 +55,7 @@ const LoginPage = () => {
                       aria-hidden="true"
                     />
                   </div>
+
                   <input
                     id="email"
                     required
